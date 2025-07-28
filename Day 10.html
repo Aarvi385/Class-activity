@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+        border:red dotted;
+        }
+        ul>li{
+            background-color: green;
+        }
+        li:nth-child(2){
+            color:beige
+        }
+        h1+p{
+            background-color: yellow;
+        }
+        a{
+            color:red;
+        }
+        a:hover{
+            color:blue;
+        }
+        div:not(.two){
+            background-color:rgb(202, 24, 53);
+        }
+        .decorated::before{
+            content:"Star";
+            color:blue;
+        }
+         .decorated::after{
+            content:"Star";
+            color:blue;
+        }
+
+
+    </style>
+</head>
+<body>
+   <h1>Advance selectors</h1> 
+   <form>
+    <input type="text" placeholder="Enter your name here">
+   </form>
+   <h1>This is advance selector</h1>
+   <p>This is a paragraph</p>
+    <ul>
+        <li>chocolate</li>
+        <li>movies</li>
+        <li>cartoon</li>
+    </ul>
+    <a href="#">This is a link</a>
+    <div class="one">This is first</div>
+    <div class="two">This is second</div>
+    <div class="decorated">This is third</div>
+
+   
+</body>
+</html>
