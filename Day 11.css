@@ -1,0 +1,21 @@
+.box{
+    margin: 6px 2px 6px 2px;
+    padding:5px 4px 5px 4px;
+    border:3px solid black;
+    height:40px;
+    width:100px;
+    text-align:center;
+}
+.box{
+    background: linear-gradient( to right, red, blue);
+}
+
+.float1{
+    float:right;
+    border:2px solid black;
+}
+  
+    .float2{
+    float:left;
+    border:2px solid black;
+}
