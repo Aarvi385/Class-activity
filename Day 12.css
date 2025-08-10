@@ -1,0 +1,42 @@
+.Static{
+    position: static;
+    background-color: aqua;
+    border: 4px solid blue;
+     width:500;
+    height:490px;
+}
+.Absolute{
+    position: absolute;
+    background-color: blueviolet;
+    border: 4px solid black;
+    width:500px;
+    height:490px;
+}
+.Sticky{
+    position:sticky;
+    background-color: pink;
+    border: 3px solid black;
+    top:40px;
+     width:400px;
+    height:300px;
+}
+.Relative{
+    position: relative;
+    background-color: yellow;
+    border: 4px solid pink ;
+    width:500px;
+    height:490px;
+}
+.Fixed{
+    position: fixed;
+    color:beige;
+    background-color: black;
+    border: 4px solid white;
+    top:0px;
+}
+.Op1{
+    opacity:80%;
+}
+.Op2{
+   opacity:50%;
+}
